@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/le_cons_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/balle_de_ping_pong"
+        android:layout_width="35dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/rondpng"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:id="@+id/raquette_adversaire"
+        android:layout_width="434dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/raquette"
+        tools:layout_editor_absoluteX="-146dp"
+        tools:layout_editor_absoluteY="-30dp" />
+
+    <ImageView
+        android:id="@+id/raquette_joueur"
+        android:layout_width="92dp"
+        android:layout_height="25dp"
+        app:srcCompat="@mipmap/rectan"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

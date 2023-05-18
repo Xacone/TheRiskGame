@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheRiskGame"
+        tools:targetApi="31">
+        <activity
+            android:name=".splashou"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Credits"
+            android:exported="false" />
+        <activity
+            android:name=".BallonQuiExplose"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LeaderBoard"
+            android:exported="false" />
+        <activity
+            android:name=".QuizTemplate"
+            android:exported="true" />
+        <activity
+            android:name=".SeptSeconde"
+            android:exported="true" />
+        <activity
+            android:name=".GameCircle"
+            android:exported="true" />
+        <activity
+            android:name=".SimonGame"
+            android:exported="true" />
+        <activity
+            android:name=".Pont"
+            android:exported="false" />
+        <activity
+            android:name=".ModeEntrainement"
+            android:exported="true" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="true"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/Theme.TheRiskGame.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".PlayersThatJoined"
+            android:exported="true"
+            android:label="@string/title_activity_players_that_joined"
+            android:theme="@style/Theme.TheRiskGame.NoActionBar" />
+        <activity
+            android:name=".ScoreBoard"
+            android:exported="true"
+            android:label="@string/title_activity_score_board"
+            android:theme="@style/Theme.TheRiskGame.NoActionBar" />
+        <activity
+            android:name=".MultiplayerChoiceActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/Theme.TheRiskGame.NoActionBar" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
